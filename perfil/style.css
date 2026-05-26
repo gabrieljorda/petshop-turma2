@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #3b5998;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+header a:hover {
+    color: #ffdf00; /* Efeito hover exigido */
+}
+
+header .atual {
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+.cartao {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%; /* Divide o espaço entre os 3 blocos */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cartao h2 {
+    color: #3b5998;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.lista-pets {
+    margin: 15px 0;
+}
+
+.pet-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #3b5998;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    background-color: #3b5998;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.botao:hover {
+    background-color: #2d4373; 
+}
+
+.botao.verde {
+    background-color: #28a745;
+}
+
+.botao.verde:hover {
+    background-color: #218838;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
