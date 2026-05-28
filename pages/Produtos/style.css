@@ -12,6 +12,13 @@ body {
   min-height: 100vh;
 }
 
+header {
+    background-color: #5D4037; /* Marrom escuro */
+    color: white;
+    padding: 15px 0;
+    border-bottom: 3px solid #8D6E63; /* Marrom claro */
+}
+
 main {
   flex: 1;
 }

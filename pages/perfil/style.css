@@ -6,34 +6,19 @@ body {
 }
 
 header {
-    background-color: #3b5998;
+    background-color: #5D4037; /* Marrom escuro */
     color: white;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 15px 0;
+    border-bottom: 3px solid #8D6E63; /* Marrom claro */
 }
 
-header a {
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-}
-
-header a:hover {
-    color: #ffdf00; /* Efeito hover exigido */
-}
-
-header .atual {
-    font-weight: bold;
-    border-bottom: 2px solid white;
-}
 
 .container {
     display: flex;
     justify-content: space-around;
     padding: 40px 20px;
-    gap: 20px;
+    gap: 20px;    
+
 }
 
 .cartao {
@@ -83,15 +68,4 @@ header .atual {
 
 .botao.verde:hover {
     background-color: #218838;
-}
-
-/* Rodapé */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
